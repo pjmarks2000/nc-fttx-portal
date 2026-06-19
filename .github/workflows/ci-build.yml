@@ -76,7 +76,7 @@ jobs:
     - name: Checkout GitOps repository
       uses: actions/checkout@v4
       with:
-        repository: jaycloud336/nc-fttx-portal-gitops
+        repository: pjmarks2000/nc-fttx-portal
         path: ${{ env.GITOPS_REPO_PATH }}
         token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
